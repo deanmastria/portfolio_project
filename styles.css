@@ -1,13 +1,33 @@
 /*Index*/
 
     .container
-    .indexheader
+    .header /*universal*/
     .title
     .navbar
     .para1
         #p1header
         #p1
         #indeximage
-    .indexfooter
+    .footer /*universal*/
 
-    
+/*Projects*/
+    .container
+    .header /*universal*/
+    .title
+    .navbar
+    .projectpara
+        #projectheader
+        #projectp1
+        #projectimage
+    .footer /*universal*/
+
+/*Interests*/
+    .container
+    .header /*universal*/
+    .title
+    .navbar
+    .interestpara
+        #interestheader
+        #interestp1
+        #interestimage
+    .footer /*universal*/
