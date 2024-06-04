@@ -19,7 +19,11 @@ footer {
 
 
 /*Index*/
-.container
+.container p {
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+}
 .header /*universal*/
 .title
 .navbar
@@ -30,7 +34,10 @@ footer {
 .footer /*universal*/
 
 /*Projects*/
-.container{
+.container  p {
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
 
 }
 .header {
@@ -53,8 +60,17 @@ footer {
     }
     #projectimage {
         max-height: 500px;
-
+        animation: ease-in 5s ease-in 1s;
     }
+    @keyframes ease-in {
+        from {
+        transform:translateX(0%)
+        }
+        to { 
+        transform:translateX(200%);
+        }
+
+    } 
 .footer {
 
 }/*universal*/
