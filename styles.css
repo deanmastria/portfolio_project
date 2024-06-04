@@ -1,72 +1,71 @@
 /*All*/
-         body {
-            font-family:'Times New Roman', Times, serif;
-            background-color: bisque;
-            text-decoration-color:rgb(244, 12, 12);
-            font-size: 1.3em;
-        }
-        header, footer {
-            background-color: #f8f8f8;
-            padding: 10px 0;
-            text-align: center;
-        }
-        footer {
-            margin-top: 20px;
-            font-size: 0.8em;
-        }
+body {
+font-family:'Times New Roman', Times, serif;
+background-color: bisque;
+text-decoration-color:rgb(244, 12, 12);
+font-size: 1.3em;
+}
+header, footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
 
-    }
 
 
 
 /*Index*/
-    .container
-    .header /*universal*/
-    .title
-    .navbar
-    .para1
-        #p1header
-        #p1
-        #indeximage
-    .footer /*universal*/
+.container
+.header /*universal*/
+.title
+.navbar
+.para1
+    #p1header
+    #p1
+    #indeximage
+.footer /*universal*/
 
 /*Projects*/
-    .container{
+.container{
+
+}
+.header {
+
+} /*universal*/
+.title{
+
+}
+.navbar {
+
+}
+.projectpara {
+
+}
+    #projectheader {
 
     }
-    .header {
-
-    } /*universal*/
-    .title{
+    #projectp1 {
 
     }
-    .navbar {
+    #projectimage {
+        max-height: 500px;
 
     }
-    .projectpara {
+.footer {
 
-    }
-        #projectheader {
-
-        }
-        #projectp1 {
-
-        }
-        #projectimage {
-            max-height: 500px;
-
-        }
-    .footer {
-
-    }/*universal*/
+}/*universal*/
 
 /*Interests*/
-    .container
-    .header /*universal*/
-    .title
-    .navbar
-    .interestpara
-        #interestheader
-        #interestp1
-        #interestimage
-    .footer /*universal*/
+.container
+.header /*universal*/
+.title
+.navbar
+.interestpara
+    #interestheader
+    #interestp1
+    #interestimage
+.footer /*universal*/
