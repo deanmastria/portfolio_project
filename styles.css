@@ -1,5 +1,25 @@
-/*Index*/
+/*All*/
+         body {
+            font-family:'Times New Roman', Times, serif;
+            background-color: bisque;
+            text-decoration-color:rgb(244, 12, 12);
+            font-size: 1.3em;
+        }
+        header, footer {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
 
+    }
+
+
+
+/*Index*/
     .container
     .header /*universal*/
     .title
@@ -11,15 +31,34 @@
     .footer /*universal*/
 
 /*Projects*/
-    .container
-    .header /*universal*/
-    .title
-    .navbar
-    .projectpara
-        #projectheader
-        #projectp1
-        #projectimage
-    .footer /*universal*/
+    .container{
+
+    }
+    .header {
+
+    } /*universal*/
+    .title{
+
+    }
+    .navbar {
+
+    }
+    .projectpara {
+
+    }
+        #projectheader {
+
+        }
+        #projectp1 {
+
+        }
+        #projectimage {
+            max-height: 500px;
+
+        }
+    .footer {
+
+    }/*universal*/
 
 /*Interests*/
     .container
