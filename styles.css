@@ -6,32 +6,61 @@ text-decoration-color:rgb(244, 12, 12);
 font-size: 1.3em;
 }
 header, footer {
-    background-color: #f8f8f8;
+    background-color: #81cb48;
+    border-style: outset;
     padding: 10px 0;
     text-align: center;
+    margin: 0;
 }
 footer {
+    display: block;
+    margin: 0 ;
     margin-top: 20px;
-    font-size: 0.8em;
+    margin-bottom: 0;
+    font-size: 1em;
 }
-
-
-
-
 /*Index*/
 .container p {
     margin: 0;
     font-size: 1em;
     text-align: center;
 }
-.header /*universal*/
-.title
-.navbar
-.para1
-    #p1header
-    #p1
-    #indeximage
-.footer /*universal*/
+.container h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1 1em;
+    text-align: center;
+}
+
+nav ul { /*centered and made the nav bar a little more appealing*/
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 1em;
+      
+}
+nav ul li {
+    margin: 0 1em;
+    
+
+ 
+}
+    #indeximage {
+        max-height: 200%;
+        max-width: 200%
+        height:auto;
+        animation: ease-in 5s ease-in 1s;
+    }
+    @keyframes ease-in { /*animated all images*/
+        from {
+        transform:translateX(0%)
+        }
+        to { 
+        transform:translateX(200%);
+        }
+
+    } 
 
 /*Projects*/
 .container  p {
@@ -40,26 +69,10 @@ footer {
     text-align: center;
 
 }
-.header {
-
-} /*universal*/
-.title{
-
-}
-.navbar {
-
-}
-.projectpara {
-
-}
-    #projectheader {
-
-    }
-    #projectp1 {
-
-    }
     #projectimage {
-        max-height: 500px;
+        max-height: 200px;
+        max-width: 200px;
+        height: auto;
         animation: ease-in 5s ease-in 1s;
     }
     @keyframes ease-in {
@@ -71,17 +84,62 @@ footer {
         }
 
     } 
-.footer {
-
-}/*universal*/
-
 /*Interests*/
-.container
-.header /*universal*/
-.title
-.navbar
-.interestpara
-    #interestheader
-    #interestp1
-    #interestimage
-.footer /*universal*/
+
+.container ul {
+    text-align: center;
+    text-emphasis: bold;
+}
+
+.container ul li {
+    text-align: center;
+    list-style-type:none
+}
+#interestimage {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    animation: infinite ease-in 4s ease-in 2s;
+}
+@keyframes ease-in { /*animated all images*/
+    from {
+    transform:translateX(0%)
+    }
+    to { 
+    transform:translateX(400%);
+    }
+
+} 
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: medium;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    header, footer {
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: small;
+    }
+    nav ul { 
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1200px) { /*sized for screens like the galaxy a51*/
+    body {
+        font-size: larger;
+    }
+    nav ul {
+        flex-direction: larger;
+    }
+    header, footer {
+        max-width: 100%;
+    }
+}
